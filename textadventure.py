@@ -21,7 +21,7 @@ def ask(question, possibilities, happend_key):
             happend[happend_key] = possibilities[1]
             next=True
         else:
-            print("Invalid answer!")
+            print("Invalid answer! Try again.")
 
 def start():
 
